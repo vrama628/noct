@@ -1,0 +1,6 @@
+(executable
+ (name noct)
+ (libraries js_of_ocaml tyxml react reactiveData js_of_ocaml-tyxml base)
+ (preprocess
+  (pps js_of_ocaml-ppx))
+ (modes js))
