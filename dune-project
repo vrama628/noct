@@ -15,4 +15,11 @@
  (allow_empty)
  (name noct)
  (synopsis "OCaml reactive UI demo")
- (depends js_of_ocaml tyxml react reactiveData js_of_ocaml-tyxml base))
+ (depends
+  js_of_ocaml
+  tyxml
+  react
+  reactiveData
+  js_of_ocaml-tyxml
+  base
+  tyxml.functor))

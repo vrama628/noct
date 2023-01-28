@@ -13,6 +13,7 @@ depends: [
   "reactiveData"
   "js_of_ocaml-tyxml"
   "base"
+  "tyxml.functor"
   "odoc" {with-doc}
 ]
 build: [
